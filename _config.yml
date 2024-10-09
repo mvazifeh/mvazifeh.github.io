@@ -1,7 +1,7 @@
 # Basic Information 
 title: Moe Vazifeh
-position: "ml/data scientist and tech entrepreneur"
-affiliation: "cofounder/cto at Adaviv </br> Past: </br> MIT, Amazon, 1Qbit"
+position: "scientist and tech entrepreneur"
+affiliation: "Adaviv, MIT, Amazon, 1Qbit"
 email: mmvazifeh (at) gmail.com
 
 # Search Engine Optimization (SEO)
@@ -30,7 +30,7 @@ enable_footnote: false
 
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
-auto_dark_mode: false
+auto_dark_mode: true
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.

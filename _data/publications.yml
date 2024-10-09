@@ -1,0 +1,61 @@
+main:
+
+  # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
+  #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
+  #   conference_short: MICCAI
+  #   conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+  #   pdf: https://arxiv.org/pdf/2306.00988.pdf
+  #   code: https://github.com/MrGiovanni/ContinualLearning
+  #   bibtex: https://bib.yliu.me/MICCAI23.txt
+  #   image: ./assets/img/teaser_example_2.png
+  #   notes: Early Accept
+
+  # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+  #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+  #   conference_short: CVPR
+  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
+  #   pdf: https://arxiv.org/pdf/2002.10211.pdf
+  #   code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+  #   page: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   notes: Oral Presentation
+  #   image: ./assets/img/teaser_example.png
+
+  - title: "Addressing the minimum fleet problem in on-demand urban mobility"
+    authors: "<u>M Vazifeh</u>, P Santi, G Resta, SH Strogatz, C Ratti"
+    conference: "Nature 557 (7706), 534-538"
+    pdf: "https://www.nature.com/articles/s41586-018-0095-1"
+    image: ./assets/img/n1.png
+
+  - title: "The universal visitation law of human mobility"
+    authors: "... <u>M Vazifeh</u>, Carlo Ratti"
+    conference: "Nature 593 (7860), 522-527"
+    pdf: "https://www.nature.com/articles/s41586-021-03480-9"
+    image: ./assets/img/mit3.jpg
+
+  - title: "Optimizing the deployment of electric vehicle charging stations using pervasive mobility data"
+    authors: "<u>M Vazifeh</u>, H Zhang, P Santi, C Ratti"
+    conference: "Transportation Research Part A: Policy and Practice 121, 75-91"
+    pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0965856417300010"
+    image: ./assets/img/mit2.jpg
+
+
+  - title: "Smartphone data streams for bridge health monitoring"
+    authors: "T Matarazzo, <u>M Vazifeh</u>, S Pakzad, P Santi, C Ratti"
+    conference: "Procedia engineering 199, 966-971"
+    pdf: "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13701329710284514779"
+    image: ./assets/img/mit5.jpg
+
+  - title: "Population histories of the United States revealed through fine-scale migration and haplotype analysis"
+    authors: "CL Dai, <u>M Vazifeh</u>, CH Yeang, R Tachet, RS Wells, MG Vilar, MJ Daly, ..."
+    conference: "The American Journal of Human Genetics 106 (3), 371-388"
+    pdf: "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=714110982540979389"
+    image: ./assets/img/mit4.jpg
+
+  - title: "Electromagnetic response of weyl semimetals"
+    authors: "<u>M Vazifeh</u>, M Franz"
+    conference: "Phys. Rev. Lett. 111, 027201"
+    pdf: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.111.027201"
+    image: ./assets/img/prl1b.png
+
+

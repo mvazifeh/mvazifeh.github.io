@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <title>{{ site.seo_title | default: site.title }}</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    {% if site.keywords %}
+    <meta name="keywords" content="{{ site.keywords }}">
+    {% endif %}
+    {% if site.canonical %}
+    <link rel="canonical" href="{{ site.canonical }}"/>
+    {% endif %}
+
+    {% assign og_image = site.avatar | remove_first: "./" | prepend: "/" | prepend: site.url %}
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="{{ site.seo_title | default: site.title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:url" content="{{ site.canonical }}">
+    <meta property="og:image" content="{{ og_image }}">
+    <meta property="og:image:alt" content="{{ site.title }}">
+    <meta property="profile:first_name" content="Mo">
+    <meta property="profile:last_name" content="Vazifeh">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ site.seo_title | default: site.title }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="{{ og_image }}">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": {{ site.title | jsonify }},
+      "alternateName": {{ site.alternate_names | jsonify }},
+      "url": {{ site.canonical | jsonify }},
+      "image": {{ og_image | jsonify }},
+      "jobTitle": "Senior Manager, ML Engineering",
+      "worksFor": { "@type": "Organization", "name": "Capital One" },
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of British Columbia" },
+      "description": {{ site.description | jsonify }},
+      "knowsAbout": ["Large language models", "Multi-agent systems", "LLM evaluation", "AI reliability", "Machine learning", "Complex systems", "Human mobility", "Theoretical physics"],
+      "sameAs": [
+        {{ site.google_scholar | jsonify }},
+        {{ site.linkedin | jsonify }},
+        {{ site.github_link | jsonify }}
+      ]
+    }
+    </script>
+
+    <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="./assets/img/favicon.png" type="image/png" sizes="64x64">
+    <link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/publications.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+        {% if site.avatar %}
+        <a class="image avatar"><img src="{{ site.avatar }}" alt="{{ site.title }}" /></a>
+        {% endif %}
+
+        <h1>{{ site.title }}</h1>
+
+        {% if site.position %}
+        <position>{{ site.position }}</position>
+        <br>
+        {% endif %}
+        {% if site.affiliation %}
+        <div class="affil-current">{{ site.affiliation }}</div>
+        {% endif %}
+        {% if site.affiliation_prev %}
+        <div class="affil-prev">
+          <span class="affil-label">Previously</span>
+          {% for a in site.affiliation_prev %}<span>{% if a.url %}<a href="{{ a.url }}" rel="noopener">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}</span>{% endfor %}
+        </div>
+        {% endif %}
+        <br>
+        <div class="social-icons">
+        {% if site.email %}
+        {% assign em = site.email | split: " (at) " %}
+        <a style="margin: 0 5px 0 0" href="#" class="js-email" data-u="{{ em[0] }}" data-d="{{ em[1] }}" title="Email" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        {% endif %}
+        {% if site.google_scholar %}
+        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
+          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+        </a>  
+        {% endif %}
+
+        {% if site.cv_link %}
+        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
+          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+        </a>
+        {% endif %}
+
+        {% if site.github_link %}
+        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
+          <i class="fab fa-github"></i>
+        </a>
+        {% endif %}
+
+        {% if site.linkedin %}
+        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        {% endif %}
+
+        {% if site.twitter %}
+        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        {% endif %}
+        </div>
+        <br>
+        <script>
+          document.querySelectorAll('.js-email').forEach(function (a) {
+            a.href = 'mailto:' + a.dataset.u + '@' + a.dataset.d;
+          });
+        </script>
+
+      </header>
+      <section>
+
+      {{ content }}
+
+      <br>
+
+      </section>
+      <footer>
+        
+      </footer>
+    </div>
+  </body>
+</html>

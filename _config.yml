@@ -1,0 +1,42 @@
+# Basic information
+title: Mo Vazifeh
+position: "Sr. Manager, ML Engineering"
+affiliation: "Capital One"
+affiliation_prev:
+  - name: "MIT Senseable City Lab"
+    url: "https://senseable.mit.edu"
+  - name: "Adaviv (co-founder, CTO)"
+    url: "https://www.adaviv.com"
+  - name: "Amazon Alexa AI"
+email: mmvazifeh (at) gmail.com
+
+# SEO
+keywords: LLM agents, multi-agent systems, LLM evaluation, sequential reasoning, AI reliability, AI safety, machine learning, complex systems, physics
+description: "Mo Vazifeh: physicist and AI engineer leading GenAI teams at Capital One. Previously MIT Senseable City Lab, Adaviv (co-founder, CTO), and Amazon Alexa AI."
+canonical: https://mvazifeh.github.io/
+url: https://mvazifeh.github.io
+seo_title: "Mo Vazifeh | ML+Agentic Engineering"
+alternate_names: ["Moe Vazifeh", "M. Vazifeh"]
+
+# Profile links (remove a line to hide its icon)
+google_scholar: https://scholar.google.com/citations?user=9xNbE1sAAAAJ&hl=en
+github_link: https://github.com/mvazifeh
+linkedin: https://www.linkedin.com/in/moe-vazifeh/
+# cv_link: assets/files/cv.pdf
+# twitter: https://x.com/...
+
+# Profile photo (also used for link previews)
+avatar: ./assets/img/avatar.jpg
+
+# Layout, styles, and includes all live in this repo (originally based on the
+# Minimal Light theme, see LICENSE), so no remote theme is used.
+
+# Files that are not published
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - private/
+  - vendor/
+  - .bundle/

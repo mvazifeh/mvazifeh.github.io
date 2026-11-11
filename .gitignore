@@ -1,0 +1,9 @@
+# Sensitive files (resume, personal docs) — never commit
+private/
+.env
+.env.*
+_site/
+.sass-cache/
+.DS_Store
+vendor/
+.bundle/

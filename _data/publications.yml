@@ -1,0 +1,48 @@
+main:
+
+
+  - title: "seqBench: A Tunable Benchmark to Quantify Sequential Reasoning Limits of LLMs"
+    authors: "M Ramezanali, <strong>M Vazifeh</strong>, P Santi"
+    conference: "Proceedings of EMNLP 2025 (Main Conference), 33771-33792"
+    pdf: "https://aclanthology.org/2025.emnlp-main.1714.pdf"
+    page: "https://aclanthology.org/2025.emnlp-main.1714/"
+    image: ./assets/img/seqbench.png
+
+  - title: "Addressing the minimum fleet problem in on-demand urban mobility"
+    authors: "<strong>M Vazifeh</strong>, P Santi, G Resta, SH Strogatz, C Ratti"
+    conference: 'Nature 557 (7706), 534-538 · <a href="https://www.nature.com/nature/volumes/557/issues/7706">Cover story</a>'
+    pdf: "https://www.nature.com/articles/s41586-018-0095-1"
+    image: ./assets/img/nature2018_cover.jpg
+
+  - title: "The universal visitation law of human mobility"
+    authors: "M Schläpfer, L Dong, K O’Keeffe, P Santi, M Szell, H Salat, S Anklesaria, <strong>M Vazifeh</strong>, C Ratti, G West"
+    conference: "Nature 593 (7860), 522-527"
+    pdf: "https://www.nature.com/articles/s41586-021-03480-9"
+    image: ./assets/img/mit3.jpg
+
+  - title: "Optimizing the deployment of electric vehicle charging stations using pervasive mobility data"
+    authors: "<strong>M Vazifeh</strong>, H Zhang, P Santi, C Ratti"
+    conference: "Transportation Research Part A: Policy and Practice 121, 75-91"
+    pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0965856417300010"
+    image: ./assets/img/mit2.jpg
+
+
+  - title: "Smartphone data streams for bridge health monitoring"
+    authors: "T Matarazzo, <strong>M Vazifeh</strong>, S Pakzad, P Santi, C Ratti"
+    conference: "Procedia engineering 199, 966-971"
+    pdf: "https://doi.org/10.1016/j.proeng.2017.09.203"
+    image: ./assets/img/mit5.jpg
+
+  - title: "Population histories of the United States revealed through fine-scale migration and haplotype analysis"
+    authors: "CL Dai, <strong>M Vazifeh</strong>, CH Yeang, R Tachet, RS Wells, MG Vilar, MJ Daly, ..."
+    conference: "The American Journal of Human Genetics 106 (3), 371-388"
+    pdf: "https://doi.org/10.1016/j.ajhg.2020.02.002"
+    image: ./assets/img/mit4.jpg
+
+  - title: "Electromagnetic response of weyl semimetals"
+    authors: "<strong>M Vazifeh</strong>, M Franz"
+    conference: "Phys. Rev. Lett. 111, 027201"
+    pdf: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.111.027201"
+    image: ./assets/img/prl1b.png
+
+
